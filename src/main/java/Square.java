@@ -1,12 +1,12 @@
-public class Square implements Figure{
-    public Square(double side_) {
-        side = side_;
+public class Square implements Figure {
+    protected final double side;
+
+    public Square(double side) {
+        this.side = side;
     }
 
     @Override
     public double getArea() {
         return side * side;
     }
-
-    double side;
 }

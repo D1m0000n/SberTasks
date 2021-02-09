@@ -8,7 +8,7 @@ class CircleTest {
     @Test
     void getArea() {
         double actualArea = circleTest.getArea();
-        double expectedArea = 3.14 * 2 * 2;
+        double expectedArea = Math.PI * 2 * 2;
         assertEquals(actualArea, expectedArea);
     }
 }
