@@ -1,3 +1,7 @@
+package Geometry;
+
+import Geometry.Figure;
+
 public class Square implements Figure {
     protected final double side;
 

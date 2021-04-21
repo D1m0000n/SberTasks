@@ -1,4 +1,6 @@
-import org.junit.Before;
+package Geometry;
+
+import Geometry.Square;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

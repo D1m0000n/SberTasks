@@ -1,3 +1,5 @@
+package Geometry;
+
 public class Rectangle extends Square {
     double other_side;
 

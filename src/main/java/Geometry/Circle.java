@@ -1,3 +1,7 @@
+package Geometry;
+
+import Geometry.Figure;
+
 public class Circle implements Figure {
     private final int radius;
 
